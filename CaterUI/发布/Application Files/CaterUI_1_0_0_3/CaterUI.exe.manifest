@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CaterUI.exe" version="1.0.0.3" publicKeyToken="9d7c2002d99f7b0e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CaterUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CaterUI.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CaterBll.dll" size="8192">
+      <assemblyIdentity name="CaterBll" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Y6UGWaBIgOyBldnydEvDlU0Urv/hNjr/kQBbiPvubZE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CaterCommon.dll" size="5120">
+      <assemblyIdentity name="CaterCommon" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>irr0vg1uwwCgaCAo7BDRrUUSn13vrC83kHzv1lLsmBk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CaterDal.dll" size="24064">
+      <assemblyIdentity name="CaterDal" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>aRmKpG/+f18nmbisqVrWMawXCdV1R+NRqG+HrWMTE9A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CaterModel.dll" size="10752">
+      <assemblyIdentity name="CaterModel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LZgv708M0PgHcFfNTf6mJQyUr5HEDeDibrIzvdySEpY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CaterUI.exe" size="1039784">
+      <assemblyIdentity name="CaterUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zdQ3ApkKz7U85c7LVmehsZMdrjoUlLLtT93dIoo7JqI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChnCharInfo.dll" size="390224">
+      <assemblyIdentity name="ChnCharInfo" version="1.0.0.0" publicKeyToken="18F031BD02E5E291" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VsYdFPo54WcgUSXz13wGQM0umRv838EFCwZHwtSw190=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="457216">
+      <assemblyIdentity name="MySql.Data" version="6.9.6.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vp/0k3J7s9ugl4aq8lI/oYVJVNPbUyQ7qJjLrWRUSa0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CaterUI.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\desk1.png" size="16503">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zk7ylAgDCoTnGEeAucOmuMZondvglCU7acsqS9iUgNE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\desk2.png" size="15975">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RaVz+Qi4o1F57hCNqb95H09taPhZw6OIcVCGp7Bu+88=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\loginBg.png" size="112513">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cnqdpmbCvJv2JC4apGyppN2g6oz5/SHnFHaxa9i7D8A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\logo.ico" size="9662">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dQM0ydDxifG6cjpVwNnq4nNjGKOm5TxsKlz5zI/YS6A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\menuBg.BMP" size="47574">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kW3sm9wmL+jLVAmQcLX0W7G/0nIubYAEIJGV/hFlt6c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\menuDish.png" size="53202">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lJT7w+wQu+iWSR6TZas/0pAnENbcpgN6fbeKRAN5lNo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\menuManager.png" size="50942">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Q3lFTP3G9bcEDmRvhRevbbZdBE9WjcBoXk1w9QgjdZY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\menuMember.png" size="110174">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+KMedc6YPGpCEvnjOp9WUkP9ye7cU/OcidPT3QueH+I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\menuOrder.png" size="22374">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8lWhkWhYhQTaMbZQgv2HHCSKWz+JJX6ONqoZUesL5RU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\menuQuit.png" size="16580">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QY65mOkcck514AAEGU9N6/juv9Mc0f6ME8ECma9Lnps=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\menuTable.png" size="250715">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EXMM7rdmUAyInpE6bTK6FZb9Rzr5r2bY8vroVEfQk5k=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=erg8-PC\erg8" issuerKeyHash="2266f0070bb3a3ceabf581def839cf79e01d1916" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>JWXzOfhT7kjyCUt7kupXL5N9+kERTWumn/8r3g3W1M4=</DigestValue></Reference></SignedInfo><SignatureValue>Sj4SPxfLjWCzqw6P78TDjUleUAA/bVJNXET4DwXMBf/tM1QMnm5nb1f6dC2+FZFnQ+0Zgi1amkQAmO71VwoO3/cUhNppYd9xS/EJAYUmVyA6JXAdAzGc8H9XlNQeVLQJ4uUcwoES3iXxLPAWVscQxxwZMnBD4uu96Ae5U6WC1rk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>j53Rwj9yrgKWEj2mfCwjVR3Hfdo3F6JK4LvAreLcviJYKTbLh9XknAY3PtU3oorm+afHAq5zZpFax8jX6q/x5pISE9Mz63f8lD4kp7wX4jhBF9sIYzBqpSiBsI02M+GZ0o2kpC1Eoz58fZeKapyJkoCxDLO2VYFnZS+UhF3ZMlk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ced4d60dde2bff9fa66b4d1141fa7d932f57ea927b4b09f248ee53f839f36525" Description="" Url=""><as:assemblyIdentity name="CaterUI.exe" version="1.0.0.3" publicKeyToken="9d7c2002d99f7b0e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=erg8-PC\erg8</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+ts2EBNi15C5CUHMF+ujHrktVGyWQB5PaYKFr3M4Qzw=</DigestValue></Reference></SignedInfo><SignatureValue>ZwnDZpmgtVTUCQKr0w4DQpZfJh02rto039WD7D6ugdiKhTg8VdfnV3cuoisHVyCzWB4BxdWpEv+qzfp5QTTptIfwHX2GBLV/m69t2EkC9/Hbcz2EEAtWS0R3IMBzaIkhL73EHneOVLmn64JAiVhb3Rju8bE4choOSpPEcmkehiI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>j53Rwj9yrgKWEj2mfCwjVR3Hfdo3F6JK4LvAreLcviJYKTbLh9XknAY3PtU3oorm+afHAq5zZpFax8jX6q/x5pISE9Mz63f8lD4kp7wX4jhBF9sIYzBqpSiBsI02M+GZ0o2kpC1Eoz58fZeKapyJkoCxDLO2VYFnZS+UhF3ZMlk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQNIxiSY6Tka9HOJrMv7BTSDANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAZQByAGcAOAAtAFAAQwBcAGUAcgBnADgwHhcNMTYwNzI3MDE0MjEzWhcNMTcwNzI3MDc0MjEzWjAjMSEwHwYDVQQDHhgAZQByAGcAOAAtAFAAQwBcAGUAcgBnADgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAI+d0cI/cq4ClhI9pnwsI1Udx33aNxeiSuC7wK3i3L4iWCk2y4fV5JwGNz7VN6KK5vmnxwKuc2aRWsfI1+qv8eaSEhPTM+t3/JQ+JKe8F+I4QRfbCGMwaqUogbCNNjPhmdKNpKQtRKM+fH2XimqciZKAsQyztlWBZ2UvlIRd2TJZAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAMuxHov1YXU3xI5JArWnBxRvbHdHnGL2ucAxoCmL9oeh6HlVZSUA+tfEhCiZByEv/EztrTTlbSLlizmM8/b2XvINlJNLHSOAvvmpg/oax5mDSJ+rCIj7WcYsbVZMVNJ9Pzp6Iv6Nt+pSlqp+eyNwyu/GQP1znCjAUMtPXJmkhOtg=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
