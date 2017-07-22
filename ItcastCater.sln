@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B13F7415-4732-4C59-B39D-0970D4B4530A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 复习", "01 复习\01 复习.csproj", "{ABD5146C-74DD-4C92-A5FC-27FAE6CC85A4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaterUI", "CaterUI\CaterUI.csproj", "{68EECD4B-0B4B-43D3-B105-2BCD8D99D5D5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaterBll", "CaterBll\CaterBll.csproj", "{CFB24541-A686-42BA-85B9-00B21868C091}"
@@ -23,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ABD5146C-74DD-4C92-A5FC-27FAE6CC85A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABD5146C-74DD-4C92-A5FC-27FAE6CC85A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ABD5146C-74DD-4C92-A5FC-27FAE6CC85A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ABD5146C-74DD-4C92-A5FC-27FAE6CC85A4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{68EECD4B-0B4B-43D3-B105-2BCD8D99D5D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{68EECD4B-0B4B-43D3-B105-2BCD8D99D5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68EECD4B-0B4B-43D3-B105-2BCD8D99D5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -50,8 +42,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{ABD5146C-74DD-4C92-A5FC-27FAE6CC85A4} = {B13F7415-4732-4C59-B39D-0970D4B4530A}
 	EndGlobalSection
 EndGlobal
